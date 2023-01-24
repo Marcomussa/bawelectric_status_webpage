@@ -34,7 +34,6 @@ async function main() {
                 if (error) {
                     return console.log(error);
                 }
-                console.log('Message sent: %s', info.messageId);
             })
         } else if(response.statusCode === 200) {
             mailOptions.subject = 'Sitio en Linea'
@@ -44,7 +43,6 @@ async function main() {
                 if (error) {
                     return console.log(error);
                 }
-                console.log('Message sent: %s', info.messageId);
             })
         } else {
             mailOptions.subject = 'Error en el Sitio'
@@ -54,7 +52,6 @@ async function main() {
                 if (error) {
                     return console.log(error);
                 }
-                console.log('Message sent: %s', info.messageId);
             })
         }
     });
