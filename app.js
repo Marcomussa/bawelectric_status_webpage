@@ -10,8 +10,8 @@ async function main() {
       port: 587,
       secure: false, 
       auth: {
-        user: "test@bawelectric.com", 
-        pass: "Enero2023@", 
+        user: "", 
+        pass: "", 
       },
       tls: {
         rejectUnauthorized: false
